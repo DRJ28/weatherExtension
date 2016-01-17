@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>POPUP</title>
+	<script type="text/javascript" src="../js/angular.js"></script>
+	<script type="text/javascript" src="../js/main-controller.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+</head>
+<body ng-app='weatherUpdate' ng-controller='maincontroller'>
+	<!-- <h4>Latitude:{{lat}}</h4><h4>Longitude:{{longi}}<br>{{name}}</h4> -->
+	<div style="width:200px;">
+		<h1 style="margin-bottom:0px;text-align:center;color:coral">Daily Weather</h1>
+		<h2>City:<span style="color:darkturquoise;">{{area}}</span></h2>	
+		<h2>Date:<span style="color:darkturquoise;">{{date}}</span></h2>
+		<h2><p>
+			<span style="color:darkturquoise;">{{description}}</span>
+			<img ng-src='http://openweathermap.org/img/w/{{descriptionImage}}.png' style="height:35px;"></p>
+		</h2>
+		<p>
+			<b>Min</b>:<span style="color:darkturquoise;">{{minTem}}</span> 
+			<b>Max</b>:<span style="color:darkturquoise;">{{maxTem}}</span> 
+		</p>
+		<p>
+			<b>Humidity:</b><span style="color:darkturquoise;">{{humidity}}%</span>
+		</p>
+		<p>
+			<b>Sun Rise</b><span style="color:darkturquoise;">{{sunRise}} AM</span>
+		</p>
+		<p>
+			<b>Sun Set</b><span style="color:darkturquoise;">{{sunSet}} PM</span>
+		</p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+	
+
+</body>
+</html>

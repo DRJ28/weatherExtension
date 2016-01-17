@@ -1,0 +1,11 @@
+body{
+	background-image: url("../images/1.jpg");
+	background-repeat: round;
+}
+h2{
+	margin-bottom:0px; 
+	margin-top:0px
+}
+p{
+	text-align: center;
+}

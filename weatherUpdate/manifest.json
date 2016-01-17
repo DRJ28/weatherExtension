@@ -1,0 +1,13 @@
+{
+  "name": "CurrentWeather",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Get fresh weather update",
+  "browser_action": {
+    "default_icon": "images/sun.png",
+    "default_popup": "html/index.html"
+   },
+  "permissions": [
+  	"geolocation"
+  ]
+}
